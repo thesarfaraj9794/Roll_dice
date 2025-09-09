@@ -1,0 +1,31 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        body: Center(
+          child:InkWell(
+            onTap: (){
+              print('tab on cantainer');
+
+            },
+            onDoubleTap: () {
+              print('double tab on cantainer');
+            },
+            onLongPress: () {
+              print('long press on cantainer');
+            },
+          
+          child: Container(
+            width: 200,
+            height: 300,
+            color: Colors.deepOrange,
+          ),
+        ),
+        ),
+        
+      ),
+    ),
+  );
+}
