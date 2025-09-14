@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-//AIzaSyCjcnrrzBWOuFLioYtQGXio3zX7R_If27I api key of google gemini
+
 void main(){
   runApp(
     MaterialApp(
